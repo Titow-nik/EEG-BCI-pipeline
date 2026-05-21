@@ -75,6 +75,6 @@ Machine learning classification (relaxed vs. focused states)
 Multi-subject batch processing & statistical testing
 
 Author
-Nikita Titov
+Nikita Titow
 titow_nik11@mail.ru | https://github.com/Titow-nik
 Undergraduate Researcher | Interested in BCI, Neuroengineering & Immersive VR
