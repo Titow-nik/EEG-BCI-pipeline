@@ -5,15 +5,16 @@ A modular Python pipeline for loading, filtering, and extracting spectral featur
 ## Project Overview
 Raw EEG signals are noisy and high-dimensional. This pipeline transforms `.edf` recordings into structured, interpretable features (Theta, Alpha, Beta power) suitable for statistical analysis, machine learning, or real-time BCI applications.
 
-Key goals:
+**Key goals:**
 - Reproducible preprocessing workflow
 - Standardized spectral feature extraction
 - Publication-ready visualizations
 - Modular architecture for easy extension
 
 ## Features
+
 | Module | Description |
-|--------|-------------|~~~~
+|--------|-------------|
 | `data_loader.py` | Loads EDF files via MNE, applies standard EEGBCI montage |
 | `preprocessing.py` | Bandpass (1–40 Hz) + Notch (50 Hz) filtering, signal visualization |
 | `features.py` | Welch PSD estimation, Theta/Alpha/Beta power extraction, CSV & statistics export |
@@ -28,16 +29,16 @@ EEG/
 │ ├── preprocessing.py # Filtering & time-domain visualization
 │ └── features.py # Spectral feature extraction & plotting
 ├── data/
-│ ── processed/ # Output CSVs & statistics
+│ └── processed/ # Output CSVs & statistics
 ├── docs/ # Generated plots & reports
 ├── requirements.txt # Python dependencies
 └── README.md
 
 
-## ⚙️ Installation
+##  Installation
+
 Requires Python 3.10+
 
-```bash
 # Clone or download the repository
 cd EEG
 
@@ -73,10 +74,7 @@ Real-time processing wrapper for live BCI
 Machine learning classification (relaxed vs. focused states)
 Multi-subject batch processing & statistical testing
 
-## Author
+Author
 Nikita Titov
- titow_nik11@mail.ru |  [Your GitHub Profile]
- Undergraduate Researcher | Interested in BCI, Neuroengineering & Immersive VR
-
-## License
-MIT License. Free for academic & personal use.
+titow_nik11@mail.ru | https://github.com/Titow-nik
+Undergraduate Researcher | Interested in BCI, Neuroengineering & Immersive VR
