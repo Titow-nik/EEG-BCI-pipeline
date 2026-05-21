@@ -21,6 +21,7 @@ Raw EEG signals are noisy and high-dimensional. This pipeline transforms `.edf` 
 | `main.py` | Orchestrates the full pipeline end-to-end |
 
 ## Project Structure
+```
 EEG/
 ├── src/
 │ ├── init.py
@@ -33,7 +34,7 @@ EEG/
 ├── docs/ # Generated plots & reports
 ├── requirements.txt # Python dependencies
 └── README.md
-
+```
 ##  Installation
 
 Requires Python 3.10+
