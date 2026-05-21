@@ -34,7 +34,6 @@ EEG/
 ├── requirements.txt # Python dependencies
 └── README.md
 
-
 ##  Installation
 
 Requires Python 3.10+
